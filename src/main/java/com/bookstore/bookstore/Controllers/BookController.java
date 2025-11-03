@@ -10,7 +10,7 @@ import com.bookstore.bookstore.Repository.BookRepository;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000") // for React
+@CrossOrigin(origins = "http://localhost:3000")
 @RequestMapping("/")
 public class BookController {
 
